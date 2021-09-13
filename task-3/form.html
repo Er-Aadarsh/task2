@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="form.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECHNOPHILE BUD</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+          <h1 id="title" class="text-center">Survey Form</h1>
+          <p id="description" class="description text-center">
+            Thank you for taking the time to fill the form!
+          </p>
+        </header>
+        <form id="survey-form">
+          <div class="form-group">
+            <label id="name-label" for="name">Full Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="form-control"
+              placeholder="FirstName LastName"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label id="email-label" for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="form-control"
+              placeholder="xyz@gmail.com"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label id="number-label" for="number">Age</label>
+            <input
+              type="number"
+              name="age"
+              id="number"
+              min="10"
+              max="99"
+              class="form-control"
+              placeholder="Age"
+              required/>
+          </div>
+      
+      
+          <div class="form-group">
+            <p>Gender</p>
+            <label>
+              <input
+                name="gender"
+                value="Male"
+                type="radio"
+                class="input-radio"
+                checked 
+              />Male</label
+            >
+            <label>
+              <input
+                name="gender"
+                value="Female"
+                type="radio"
+                class="input-radio"
+              />Female</label
+            >
+      
+            <label
+              ><input
+                name="gender"
+                value="Prefer Not To Say"
+                type="radio"
+                class="input-radio"
+              />Prefer Not To Say</label
+            >
+          </div>
+          
+      
+          <div class="form-group">
+            <p>
+              Will you recommend this college to others?
+            </p>
+      
+            <label
+              ><input
+                name="prefer"
+                value="Highly Likely"
+                type="checkbox"
+                class="input-checkbox"
+              />Highly Likely</label
+            >
+            <label>
+              <input
+                name="prefer"
+                value="Very Likely"
+                type="checkbox"
+                class="input-checkbox"
+              />Very Likely</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="Neutral"
+                type="checkbox"
+                class="input-checkbox"
+              />Neutral</label
+            >
+   
+            <label><input
+                name="prefer"
+                value="Unlikely"
+                type="checkbox"
+                class="input-checkbox"
+              />Unlikely</label
+            >
+            <label
+              ><input
+                name="Dev-Ops"
+                value="Highly Unlikely"
+                type="checkbox"
+                class="input-checkbox"
+              />Highly Unlikely</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="other"
+                type="checkbox"
+                class="input-checkbox"
+              />Other</label
+            >
+          </div>
+          <div class="form-group">
+            <p>
+              Are you Satisfied with the teaching staff and their teaching methods?
+            </p>
+      
+            <label
+              ><input
+                name="prefer"
+                value="Extremely Satisfied"
+                type="checkbox"
+                class="input-checkbox"
+              />Extremely Satisfied</label
+            >
+            <label>
+              <input
+                name="prefer"
+                value="Very Satisfied"
+                type="checkbox"
+                class="input-checkbox"
+              />Very Satisfied</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="Satisfied"
+                type="checkbox"
+                class="input-checkbox"
+              />Satisfied</label
+            >
+   
+            <label><input
+                name="prefer"
+                value="Neutral"
+                type="checkbox"
+                class="input-checkbox"
+              />Neutral</label
+            >
+            <label
+              ><input
+                name="Dev-Ops"
+                value="Dissatisfied"
+                type="checkbox"
+                class="input-checkbox"
+              />Dissatisfied</label
+            >
+            <label
+              ><input
+                name="Dev-Ops"
+                value="Very Dissatisfied"
+                type="checkbox"
+                class="input-checkbox"
+              />Very Dissatisfied</label
+            >
+            <label
+              ><input
+                name="Dev-Ops"
+                value="Extremely Dissatisfied"
+                type="checkbox"
+                class="input-checkbox"
+              />Extremely Dissatisfied</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="other"
+                type="checkbox"
+                class="input-checkbox"
+              />Other</label
+            >
+          </div>
+          <div class="form-group">
+            <p>
+              How Satisfied are you with the Facilities provided by the college?
+            </p>
+      
+            <label
+              ><input
+                name="prefer"
+                value="Extremely Satisfied"
+                type="checkbox"
+                class="input-checkbox"
+              />Extremely Satisfied</label
+            >
+            <label>
+              <input
+                name="prefer"
+                value="Very Satisfied"
+                type="checkbox"
+                class="input-checkbox"
+              />Very Satisfied</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="Satisfied"
+                type="checkbox"
+                class="input-checkbox"
+              />Satisfied</label
+            >
+   
+            <label><input
+                name="prefer"
+                value="Neutral"
+                type="checkbox"
+                class="input-checkbox"
+              />Neutral</label
+            >
+            <label
+              ><input
+                name="Dev-Ops"
+                value="Dissatisfied"
+                type="checkbox"
+                class="input-checkbox"
+              />Dissatisfied</label
+            >
+            <label
+              ><input
+                name="Dev-Ops"
+                value="Very Dissatisfied"
+                type="checkbox"
+                class="input-checkbox"
+              />Very Dissatisfied</label
+            >
+            <label
+              ><input
+                name="Dev-Ops"
+                value="Extremely Dissatisfied"
+                type="checkbox"
+                class="input-checkbox"
+              />Extremely Dissatisfied</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="other"
+                type="checkbox"
+                class="input-checkbox"
+              />Other</label
+            >
+          </div>
+          <div class="form-group">
+            <p>
+              Was it easy to obtain the necessary resources from the college Library?
+            </p>
+            <select id="most-like" name="mostLike" class="form-control" required>
+              <option disabled selected value>Select an option</option>
+              <option value="yes">YES</option>
+              <option value="no">NO</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <p>
+              Do you feel it is easier to register for different courses within the college?
+            </p>
+      
+            <label
+              ><input
+                name="prefer"
+                value="Extremely Satisfied"
+                type="checkbox"
+                class="input-checkbox"
+              />Extremely Satisfied</label
+            >
+            <label>
+              <input
+                name="prefer"
+                value="Very Satisfied"
+                type="checkbox"
+                class="input-checkbox"
+              />Very Satisfied</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="Satisfied"
+                type="checkbox"
+                class="input-checkbox"
+              />Satisfied</label
+            >
+   
+            <label><input
+                name="prefer"
+                value="Neutral"
+                type="checkbox"
+                class="input-checkbox"
+              />Neutral</label
+            >
+            <label
+              ><input
+                name="Dev-Ops"
+                value="Dissatisfied"
+                type="checkbox"
+                class="input-checkbox"
+              />Dissatisfied</label
+            >
+            <label
+              ><input
+                name="Dev-Ops"
+                value="Very Dissatisfied"
+                type="checkbox"
+                class="input-checkbox"
+              />Very Dissatisfied</label
+            >
+            <label
+              ><input
+                name="Dev-Ops"
+                value="Extremely Dissatisfied"
+                type="checkbox"
+                class="input-checkbox"
+              />Extremely Dissatisfied</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="other"
+                type="checkbox"
+                class="input-checkbox"
+              />Other</label
+            >
+          </div>  
+          <div class="form-group">
+            <p>
+              How Satisfied are you with the cleanliness and variety of food items available in the cafeteria?
+            </p>
+      
+            <label
+              ><input
+                name="prefer"
+                value="Extremely Satisfied"
+                type="checkbox"
+                class="input-checkbox"
+              />Extremely Satisfied</label
+            >
+            <label>
+              <input
+                name="prefer"
+                value="Very Satisfied"
+                type="checkbox"
+                class="input-checkbox"
+              />Very Satisfied</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="Satisfied"
+                type="checkbox"
+                class="input-checkbox"
+              />Satisfied</label
+            >
+   
+            <label><input
+                name="prefer"
+                value="Neutral"
+                type="checkbox"
+                class="input-checkbox"
+              />Neutral</label
+            >
+            <label
+              ><input
+                name="Dev-Ops"
+                value="Dissatisfied"
+                type="checkbox"
+                class="input-checkbox"
+              />Dissatisfied</label
+            >
+            <label
+              ><input
+                name="Dev-Ops"
+                value="Very Dissatisfied"
+                type="checkbox"
+                class="input-checkbox"
+              />Very Dissatisfied</label
+            >
+            <label
+              ><input
+                name="Dev-Ops"
+                value="Extremely Dissatisfied"
+                type="checkbox"
+                class="input-checkbox"
+              />Extremely Dissatisfied</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="other"
+                type="checkbox"
+                class="input-checkbox"
+              />Other</label
+            >
+          </div>
+          <div class="form-group">
+            <p>
+              How supportive were the faculty member?
+            </p>
+      
+            <label
+              ><input
+                name="prefer"
+                value="Extremely Satisfied"
+                type="checkbox"
+                class="input-checkbox"
+              />Extremely Satisfied</label
+            >
+            <label>
+              <input
+                name="prefer"
+                value="Very Satisfied"
+                type="checkbox"
+                class="input-checkbox"
+              />Very Satisfied</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="Satisfied"
+                type="checkbox"
+                class="input-checkbox"
+              />Satisfied</label
+            >
+   
+            <label><input
+                name="prefer"
+                value="Neutral"
+                type="checkbox"
+                class="input-checkbox"
+              />Neutral</label
+            >
+            <label
+              ><input
+                name="Dev-Ops"
+                value="Dissatisfied"
+                type="checkbox"
+                class="input-checkbox"
+              />Dissatisfied</label
+            >
+            <label
+              ><input
+                name="Dev-Ops"
+                value="Very Dissatisfied"
+                type="checkbox"
+                class="input-checkbox"
+              />Very Dissatisfied</label
+            >
+            <label
+              ><input
+                name="Dev-Ops"
+                value="Extremely Dissatisfied"
+                type="checkbox"
+                class="input-checkbox"
+              />Extremely Dissatisfied</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="other"
+                type="checkbox"
+                class="input-checkbox"
+              />Other</label
+            >
+          </div> 
+          <div class="form-group">
+            <p>
+              What do you think of the Hostel?
+            </p>
+      
+            <label
+              ><input
+                name="prefer"
+                value="Extremely Crowded"
+                type="checkbox"
+                class="input-checkbox"
+              />Extremely Crowded</label
+            >
+            <label>
+              <input
+                name="prefer"
+                value="Very Crowded"
+                type="checkbox"
+                class="input-checkbox"
+              />Very Crowded</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="Somewhat Crowded"
+                type="checkbox"
+                class="input-checkbox"
+              />Somewhat Crowded</label
+            >
+   
+            <label><input
+                name="prefer"
+                value="Not so Crowded"
+                type="checkbox"
+                class="input-checkbox"
+              />Not so Crowded</label
+            >
+            <label
+              ><input
+                name="Dev-Ops"
+                value="Not at all Crowded"
+                type="checkbox"
+                class="input-checkbox"
+              />Not at all Crowded</label
+            >
+            
+          </div>
+          <div class="form-group">
+            <p>
+              Are you Satisfied with the teaching staff and their teaching practices?
+            </p>
+            <select id="most-like" name="mostLike" class="form-control" required>
+              <option disabled selected value>Select an option</option>
+              <option value="yes">YES</option>
+              <option value="no">NO</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <p>
+              What do you think about extracurricular activities?
+            </p>
+            <select id="most-like" name="mostLike" class="form-control" required>
+              <option disabled selected value>Select an option</option>
+              <option value="yes">They are too few</option>
+              <option value="no">They are just right</option>
+              <option value="no">I was overwhelmed with the number</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <p>
+              Given a chance , are you willing to pursue another course at the college?
+            </p>
+            <select id="most-like" name="mostLike" class="form-control" required>
+              <option disabled selected value>Select an option</option>
+              <option value="yes">Definitely,YES</option>
+              <option value="no">Probably , YES</option>
+              <option value="no">Probably , NO</option>
+              <option value="yes">Definitely , NO</option>
+              <option value="no">Can't Say</option>
+            </select>
+          </div>
+             
+          <div class="form-group">
+            <p>Please Provide us with additional feedback on areas that need improvement</p>
+            <textarea
+              id="comments"
+              class="input-textarea"
+              name="comment"
+              placeholder="Shoot!"
+            ></textarea>
+          </div>
+      
+          <div class="form-group">
+            <button type="submit" id="submit" class="submit-button">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+</body>
+</html>
